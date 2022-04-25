@@ -1,3 +1,4 @@
-# {{repo}}
+{{cookiecutter.project_name}}
+==============================
 
-{TABLE OF FIELDS COLLECTED - add later}
+{{cookiecutter.description}}
