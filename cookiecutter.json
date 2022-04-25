@@ -1,0 +1,5 @@
+{
+    "repo_baseurl": "The base url of the git server. e.g. https://code.roche.com/",
+    "repo_path": "The location of the repo - e.g. studies/",
+    "repo": "The repository name - e.g. awesome-repo"
+}
