@@ -9,7 +9,7 @@ repo = '{{cookiecutter.repo_name}}'
 
 
 print "start"
-subprocess.check_call("./script.sh %s %s %s" % (str(repo_dir), str(repo)), shell=True)
+subprocess.check_call("./sonar.sh %s %s %s" % (str(repo_dir), str(repo)), shell=True)
 print "end"
     
 
