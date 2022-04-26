@@ -13,7 +13,7 @@ run("git add --all")
 run(command)
 run("git remote add origin {}".format(repo))
 run(
-        "git remote set-url origin {}".format(
+        "git remote add origin {}".format(
         "https://abhijeetabanave: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@github.com/abhijeetabanave/testme.git"
     )
 )
