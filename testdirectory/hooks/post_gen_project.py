@@ -1,5 +1,6 @@
 import os
-from invoke import Result, run
+
+from invoke import run
 
 base_dir = os.getcwd()
 project_name = '{{cookiecutter.project_name}}'
