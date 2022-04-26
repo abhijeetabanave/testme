@@ -8,16 +8,10 @@ project_path = f'{base_dir}/{project_name}'
 repo = '{{cookiecutter.repo_name}}'
 
 run("git init");
+run("git add .");
 command = "git commit --message {}".format("\"Initial Commit\"")
-run("git add --all")
 run(command)
-run("git branch -M {}".format(repo))
-run(
-        "git remote add origin {}".format(
-        "https://abhijeetabanave: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@github.com/abhijeetabanave/testme.git"
-    )
-)
-run("git push -u origin {}".format(repo))
-
-
-
+run("git branch -M myrepotest2");
+run("git remote add origin https://abhijeetabanave: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@github.com/abhijeetabanave/testme.git");
+run("git push -u origin myrepotest2");
+	
