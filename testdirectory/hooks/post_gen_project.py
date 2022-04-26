@@ -14,7 +14,7 @@ run(command)
 run("git remote add origin {}".format(repo))
 run(
         "git remote add origin {}".format(
-        "\"https://abhijeetabanave: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@github.com/abhijeetabanave/testme.git\""
+        "https://abhijeetabanave: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@github.com/abhijeetabanave/testme.git"
     )
 )
 invoke.run("git push -u origin {}".format(repo))
