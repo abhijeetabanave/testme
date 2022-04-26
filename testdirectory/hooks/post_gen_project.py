@@ -17,7 +17,7 @@ run(
         "https://abhijeetabanave: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@github.com/abhijeetabanave/testme.git"
     )
 )
-invoke.run("git push -u origin {}".format(repo))
+run("git push -u origin {}".format(repo))
 
 
 
