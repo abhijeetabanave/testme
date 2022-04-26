@@ -11,7 +11,7 @@ run("git init");
 command = "git commit --message {}".format("\"Initial Commit\"")
 run("git add --all")
 run(command)
-run("git remote add origin {}".format(repo))
+run("git branch -M {}".format(repo))
 run(
         "git remote add origin {}".format(
         "https://abhijeetabanave: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@github.com/abhijeetabanave/testme.git"
