@@ -10,6 +10,6 @@ run("git init");
 run("git add .");
 command = "git commit --message {}".format("\"Initial Commit\"")
 run(command)
-run("git branch -M {}").format(repo);
+run("git branch -M {}".format(repo));
 run("git remote add origin https://abhijeetabanave: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@github.com/abhijeetabanave/testme.git");
-run("git push -u origin {}").format(repo);
+run("git push -u origin {}".format(repo));
